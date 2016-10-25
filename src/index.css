@@ -1,0 +1,52 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rock Salt', cursive;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+div.banner {
+  background-color: #9d9d9d;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  padding: 10px 0;
+  position: absolute;
+  line-height: 200%;
+  display: block;
+}
+
+div.bluestripe {
+  width: 100%;
+  background-color: #caf1fd;
+  color: #9d9d9d;
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+  line-height: 24px;
+}
+
+#slideshow {
+  display: inline-block;
+  margin-top: 140px;
+}
+
+@media (max-width:662px) {
+  .lil-caption > h1 {
+    font-size: 1.25rem;
+  }
+  .lil-caption > p {
+    font-size: .7rem;
+  }
+}
+
+.navi {
+  position: absolute;
+  width: 100%;
+  margin-top: 140px;
+  z-index: 5;
+  background-color: rgba(109, 109, 107, .8);
+  padding: 5px 0;
+}
