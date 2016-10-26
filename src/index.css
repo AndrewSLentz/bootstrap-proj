@@ -6,6 +6,15 @@ html, body {
   text-align: center;
 }
 
+a {
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: #CBF1FC;
+  text-decoration: none;
+}
+
 div.banner {
   background-color: #9d9d9d;
   width: 100%;
@@ -49,4 +58,84 @@ div.bluestripe {
   z-index: 5;
   background-color: rgba(109, 109, 107, .8);
   padding: 5px 0;
+  color: #e0e0e0;
+}
+
+.marge {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.seg {
+  border-right: 2px solid black;
+}
+
+.booking {
+  margin: 20px auto;
+  background-color: #c4c4c4;
+  line-height: 1.5;
+  padding: 20px 0 20px 40px;
+  border-radius: 10px;
+}
+
+@media (max-width:767px) {
+  .booking {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+div.bannerB {
+  margin-top: -7px;
+  background-color: #9d9d9d;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  padding: 10px 0 0 0;
+  position: absolute;
+  line-height: 200%;
+  display: block;
+}
+
+.package {
+  font-family: arial, sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+.desc {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  text-align: left;
+  border-bottom: 2px dashed white;
+}
+
+#lastdesc {
+  border-bottom: none;
+  padding-bottom: 20px;
+}
+
+.price {
+  font-family: arial, sans-serif;
+  font-size: 18px;
+  color: #CAF1FD;
+}
+
+#stylefix {
+  color: black;
+  font-family: arial, sans-serif;
+  background-color: #caf1fd;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#stylefix:hover {
+  background-color: #8fB5F7;
+}
+
+@media (max-width:576px) {
+  .desc {
+    display: none;
+  }
 }
