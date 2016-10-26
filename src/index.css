@@ -66,6 +66,12 @@ div.bluestripe {
   margin-right: auto;
 }
 
+@media (max-width:544px) {
+  .marge {
+    font-size: 70%;
+  }
+}
+
 .seg {
   border-right: 2px solid black;
 }
