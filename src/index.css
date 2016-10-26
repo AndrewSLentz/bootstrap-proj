@@ -140,8 +140,16 @@ div.bannerB {
   background-color: #8fB5F7;
 }
 
+.rotate {
+  display: none;
+  border-bottom: none;
+}
+
 @media (max-width:576px) {
   .desc {
     display: none;
+  }
+  .rotate {
+    display: inline-block;
   }
 }
