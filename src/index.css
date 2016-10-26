@@ -143,6 +143,7 @@ div.bannerB {
 .rotate {
   display: none;
   border-bottom: none;
+  color: black;
 }
 
 @media (max-width:576px) {
